@@ -1,0 +1,21 @@
+version = 0.1
+[personal]
+[personal.deploy]
+[personal.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-27z39ifro35f"
+s3_prefix = "sam-app"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-hello-world"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1dw90wobjjs7t"
+s3_prefix = "sam-hello-world"
+region = "us-east-1"
+profile = "personal"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
