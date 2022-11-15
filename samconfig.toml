@@ -16,6 +16,6 @@ stack_name = "sam-hello-world"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1dw90wobjjs7t"
 s3_prefix = "sam-hello-world"
 region = "us-east-1"
-profile = "personal"
+#profile = "personal"
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
