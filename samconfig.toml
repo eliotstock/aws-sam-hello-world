@@ -1,13 +1,13 @@
 version = 0.1
-[personal]
-[personal.deploy]
-[personal.deploy.parameters]
-stack_name = "sam-app"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-27z39ifro35f"
-s3_prefix = "sam-app"
-region = "us-east-1"
-capabilities = "CAPABILITY_IAM"
-image_repositories = []
+#[personal]
+#[personal.deploy]
+#[personal.deploy.parameters]
+#stack_name = "sam-app"
+#s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-27z39ifro35f"
+#s3_prefix = "sam-app"
+#region = "us-east-1"
+#capabilities = "CAPABILITY_IAM"
+#image_repositories = []
 
 [default]
 [default.deploy]
