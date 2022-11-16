@@ -2,6 +2,15 @@ import json
 
 import pytest
 
+import sys
+import os
+
+print("sys path:")
+print(sys.path)
+
+print("PYTHONPATH")
+print(os.environ["PYTHONPATH"])
+
 from hello_world import app
 
 
@@ -70,3 +79,6 @@ def test_lambda_handler(apigw_event):
     assert ret["statusCode"] == 200
     assert "message" in ret["body"]
     assert data["message"] == "hello world"
+
+if __name__ == "__main__":
+    test_lambda_handler()
